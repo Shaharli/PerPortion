@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="@dimen/ImgHeight" android:id="@+id/this_bg">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bread_bg"
+        android:id="@+id/bread_bg"
+       />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:text="@string/bread"
+        android:id="@+id/catg_name"
+        android:textSize="@dimen/textOnHeader"
+        android:layout_alignLeft="@id/bread_bg"
+        android:layout_alignTop="@id/bread_bg"
+        android:layout_alignRight="@id/bread_bg"
+        android:layout_alignBottom="@id/bread_bg"
+        android:layout_margin="1dp"
+        android:gravity="center"
+        android:textColor="@color/colorTextBtn"
+        android:textStyle="bold"
+        android:textAllCaps="true"/>
+
+</RelativeLayout>

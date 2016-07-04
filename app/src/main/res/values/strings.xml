@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">PerPortion</string>
+    <string name="action_settings">Settings</string>
+    <string name="prompt_slice_amount">How many Slices?</string>
+    <string name="prompt_grams">How much grams?</string>
+    <string name="prompt_cals_per_100">How much Cals per 100?</string>
+    <string name="hint">type here..</string>
+    <string name="calc">Calculate</string>
+    <string name="rslt_value">rslt_value</string>
+    <string name="reset">Close &amp; Reset</string>
+    <string name="bread">bread</string>
+    <string name="per_slice">Here is your result:</string>
+    <string name="fill_details">Please fill in the details:</string>
+    <string name="cals_txt">Calories per slice</string>
+
+</resources>

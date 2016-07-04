@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/calc_form">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/fill_details"
+        android:layout_marginTop="@dimen/fab_margin" />
+
+    <EditText
+        android:id="@+id/slice_amount"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/fab_margin"
+        android:hint="@string/prompt_slice_amount"
+        android:inputType="number"
+        android:maxLines="1"
+        android:singleLine="true"
+        android:background="@drawable/edit_text_style"
+        style="@android:style/TextAppearance.Widget.EditText"
+        android:textStyle="italic"
+        android:padding="10dp"
+        android:textAlignment="gravity"
+        android:gravity="left"
+        android:drawableStart="@drawable/icon_field_slice"
+        android:drawableLeft="@drawable/icon_field_slice"
+        android:drawablePadding="8dp"
+        android:nextFocusDown="@+id/grams"/>
+
+    <EditText
+        android:id="@+id/grams"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/fab_margin"
+        android:hint="@string/prompt_grams"
+        android:inputType="number"
+        android:maxLines="1"
+        android:singleLine="true"
+        android:background="@drawable/edit_text_style"
+        style="@android:style/TextAppearance.Widget.EditText"
+        android:textStyle="italic"
+        android:textAlignment="gravity"
+        android:gravity="left"
+        android:padding="10dp"
+        android:drawableStart="@drawable/icon_field_weight"
+        android:drawableLeft="@drawable/icon_field_weight"
+        android:drawablePadding="8dp"
+        android:nextFocusDown="@+id/cls_per_100"
+        />
+
+    <EditText
+        android:id="@+id/cls_per_100"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/fab_margin"
+        android:hint="@string/prompt_cals_per_100"
+        android:inputType="number"
+        android:maxLines="1"
+        android:singleLine="true"
+        android:textAlignment="gravity"
+        android:gravity="left"
+        android:background="@drawable/edit_text_style"
+        style="@android:style/TextAppearance.Widget.EditText"
+        android:textStyle="italic"
+        android:padding="10dp"
+        android:drawableStart="@drawable/icon_field_per100gram"
+        android:drawableLeft="@drawable/icon_field_per100gram"
+        android:drawablePadding="8dp"
+        />
+
+
+    <Button
+        android:id="@+id/calc_btn"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/BtnHeight"
+        android:onClick="onSendRslt"
+        android:text="@string/calc"
+        android:textColor="@color/colorTextBtn"
+        android:textSize="@dimen/textOnBtn"
+        android:layout_alignParentBottom="true"
+        android:layout_gravity="center_vertical"
+        android:layout_marginTop="@dimen/fab_margin"/>
+
+
+</LinearLayout>
