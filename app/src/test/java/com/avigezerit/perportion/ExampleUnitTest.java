@@ -1,4 +1,4 @@
-package com.example.shaharli.perportion;
+package com.avigezerit.perportion;
 
 import org.junit.Test;
 

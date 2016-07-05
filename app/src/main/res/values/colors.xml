@@ -7,4 +7,5 @@
     <color name="colorSecondaryBtn">#cccbcc</color>
     <color name="colorTextBtn">#ffffff</color>
     <color name="colorTransp">#00000000</color>
+    <color name="colorBGSlice">#faac85</color>
 </resources>

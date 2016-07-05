@@ -1,8 +1,9 @@
-package com.example.shaharli.perportion;
+package com.avigezerit.perportion;
 
 import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
+import android.util.Log;
 import android.view.animation.Animation;
 import android.view.animation.AnimationUtils;
 import android.widget.ImageView;
@@ -20,6 +21,7 @@ public class Splash extends Activity {
         final ImageView iv = (ImageView) findViewById(R.id.splash_spinner);
         final Animation an = AnimationUtils.loadAnimation(getBaseContext(), R.anim.rotate);
 
+        Log.d("PERPORTION", "wtf");
 
         iv.setAnimation(an);
         an.setAnimationListener(new Animation.AnimationListener() {
@@ -31,8 +33,9 @@ public class Splash extends Activity {
             @Override
             public void onAnimationEnd(Animation animation) {
                 finish();
-                Intent i = new Intent(getBaseContext(),MainActivity.class);
+                Intent i = new Intent(getBaseContext() , com.avigezerit.perportion.CategoriesActivity.class);
                 startActivity(i);
+                Log.d("PERPORTION", "end");
             }
 
             @Override

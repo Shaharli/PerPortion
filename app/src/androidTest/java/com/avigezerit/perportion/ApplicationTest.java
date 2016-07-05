@@ -1,4 +1,4 @@
-package com.example.shaharli.perportion;
+package com.avigezerit.perportion;
 
 import android.app.Application;
 import android.test.ApplicationTestCase;
