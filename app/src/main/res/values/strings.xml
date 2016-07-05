@@ -109,5 +109,6 @@
     <string name="cookies">Cookies</string>
     <string name="speards">Spreads</string>
     <string name="coming_soon">Coming soon</string>
+    <string name="slice_category">Calculate Per Slice</string>
 
 </resources>
